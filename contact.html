@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Contact — Stephanie Potter</title>
+  <meta name="description" content="Get in touch with Stephanie Potter about marketing strategy, SEO, web, or growth partnerships." />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-nav">
+    <div class="container nav-inner">
+      <a class="brand" href="index.html">Stephanie<span>.</span>Potter</a>
+      <button class="nav-toggle" aria-label="Toggle menu">Menu</button>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </div>
+  </header>
+
+  <main>
+    <section class="container">
+      <span class="eyebrow">Contact</span>
+      <h2>Let's talk growth.</h2>
+      <p class="section-sub" style="max-width:640px">
+        Whether it's a marketing audit, a website rebuild, or a long-term
+        partnership — reach out and we'll figure out the best next step for
+        your business.
+      </p>
+
+      <p>
+        GitHub: <a href="https://github.com/potterstep" target="_blank" rel="noopener">github.com/potterstep</a><br />
+        Email: <a href="mailto:hello@example.com">hello@example.com</a> <span style="color:var(--muted)">(update with your address)</span>
+      </p>
+
+      <form class="form" onsubmit="event.preventDefault(); alert('This is a static demo form. Wire it up to a real form service to receive messages.');">
+        <div>
+          <label for="name">Name</label>
+          <input id="name" name="name" type="text" required />
+        </div>
+        <div>
+          <label for="email">Email</label>
+          <input id="email" name="email" type="email" required />
+        </div>
+        <div>
+          <label for="message">Message</label>
+          <textarea id="message" name="message" rows="5" required></textarea>
+        </div>
+        <button class="btn btn-primary" type="submit">Send</button>
+        <p class="note">This form is a static demo. Hook it up to a service like Formspree or Netlify Forms to receive submissions.</p>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container footer-inner">
+      <div>&copy; <span id="year"></span> Stephanie Potter</div>
+      <div><a href="https://github.com/potterstep" target="_blank" rel="noopener">github.com/potterstep</a></div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
